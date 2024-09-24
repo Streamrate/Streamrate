@@ -1,0 +1,11 @@
+[package]
+name = "streamrate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+obws = "0.13.0"
+anyhow = "1.0.89"
+dotenv = "0.15.0"
+log = "0.4.22"

@@ -14,5 +14,10 @@ OBS_WEBSOCKET_PASSWORD=m3vVwU4SkJlfC8au
 ```
 save the env file and simply click on the **run.bat** file.
 
-
 **NOTE**: Currently there is no GUI so you have to run the **run.bat** file each time you stream. GUI with more features will be added soon.
+
+## 3 Show bitrate data in OBS
+
+Open the OBS and in the **sources** secition click on the **+** button and choost **Text (GDI+)** the click on **create new** and check the **Read from file** option and choose the generated **obs_bitrate.txt** file.
+
+your bitrate should be visible while streaming, otherwise it will show an "Stream not active" text
